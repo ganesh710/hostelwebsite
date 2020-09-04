@@ -11,5 +11,8 @@ router.get('/admin_warden', function(req, res, next) {
 router.get('/studentlogin', function(req, res, next) {
   res.render('studentlogin');
 });
+router.get('/adminpage', function(req, res, next) {
+  res.render('adminpage');
+});
 
 module.exports = router;
